@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment-product-registration</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.6.2/css/bootstrap-slider.min.css"
+          integrity="sha256-G3IAYJYIQvZgPksNQDbjvxd/Ca1SfCDFwu2s2lt0oGo=" crossorigin="anonymous"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.6.2/bootstrap-slider.js"
+            integrity="sha256-59/apVFrosMLFX2dHZLGvb3nPpu7e0Yx1rsDr1dTRrk=" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container-sm page-product-registration">
+    <header class="top-header-fixed">
+        <a class="previous-page" href="#">
+            <h5 class="txt-header"><i class="material-icons ico-filter">arrow_back_ios</i>이전</h5>
+        </a>
+    </header>
+    <section class="section-product-registration">
+    <h5>중고거래 상품 등록</h5>
+    <form>
+        <div class="form-basic-information">
+            <div class="form-group products-title">
+                <input type="text" class="form-control" id="productsTitle" placeholder="제품 이름을 입력해주세요.">
+            </div>
+            <div class="form-group products-category">
+                <select class="form-control" id="productsCategory">
+                    <option disabled selected>카테고리를 선택해주세요.</option>
+                    <option>차량</option>
+                    <option>가구/인테리어</option>
+                    <option>유아동/유아도서</option>
+                    <option>생활/가공식품</option>
+                </select>
+            </div>
+            <div class="form-group products-price">
+                <input type="number" class="form-control" id="productsPrice" placeholder="가격을 입력해주세요. (￦)">
+            </div>
+            <div class="form-group products-description">
+                <textarea class="form-control" id="productsDescription" rows="10" placeholder="제품 설명을 작성해주세요."></textarea>
+            </div>
+        </div>
+
+        <div class="form-car-information">
+            <div class="form-row">
+                <div class="form-group col car-year">
+                    <select id="carYear" class="form-control">
+                        <option disabled selected>차량 연식을 선택해주세요</option>
+                        <option>2020년</option>
+                        <option>2019년</option>
+                        <option>2018년</option>
+                        <option>2017년</option>
+                        <option>2016년</option>
+                        <option>2015년</option>
+                        <option>2014년</option>
+                        <option>2013년</option>
+                        <option>2012년</option>
+                        <option>2011년</option>
+                        <option>2010년</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group car-distance">
+                <input type="number" class="form-control" id="carDistance" placeholder="주행거리를 입력해주세요.(km)">
+            </div>
+            <div class="form-group car-smoking">
+                <label>차량 판매자 흡연 여부</label>
+                <div class="btn-group d-block btn-smoking">
+                    <div class="form-check form-check-inline form-check-smoking">
+                        <input class="form-check-input" type="radio" name="smokingOptions" id="inlineSmoker"
+                               value="true">
+                        <label class="form-check-label smoker" for="inlineSmoker">예, 흡연자 입니다.</label>
+                    </div>
+                    <div class="form-check form-check-inline form-check-nonsmoking">
+                        <input class="form-check-input" type="radio" name="smokingOptions" id="inlineNonSmoker"
+                               value="false">
+                        <label class="form-check-label non-smoker" for="inlineNonSmoker">아니오, 비 흡연자 입니다.</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button class="btn btn-block btn-daangn">상품 등록하기</button>
+    </form>
+    </section>
+</div>
+</body>
+
+</html>

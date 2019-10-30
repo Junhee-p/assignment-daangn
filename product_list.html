@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Assignment-product-list</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.6.2/css/bootstrap-slider.min.css" integrity="sha256-G3IAYJYIQvZgPksNQDbjvxd/Ca1SfCDFwu2s2lt0oGo=" crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.6.2/bootstrap-slider.js" integrity="sha256-59/apVFrosMLFX2dHZLGvb3nPpu7e0Yx1rsDr1dTRrk=" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container-sm page-product-list">
+    <header class="top-header-fixed">
+        <a class="logo-daangn" href="#">
+            <img class="img-daangn" alt="당근마켓" src="https://d1unjqcospf8gs.cloudfront.net/assets/home/base/header/logo-basic-00b7e471b721ce9db8b0758c05a84684413c8aef1ad54caa0f3fcbe7328c947f.svg">
+        </a>
+        <div class="btn-right-group">
+            <a href="#"><i class="material-icons ico-create">create</i></a>
+        </div>
+    </header>
+    <section class="section-filter">
+        <h5 class="filter-title">제품 카테고리</h5>
+        <div class="category-group">
+            <a href="#" class="btn btn-outline-normal">차량</a>
+            <a href="#" class="btn btn-outline-normal disabled">인기매물</a>
+            <a href="#" class="btn btn-outline-normal disabled">가구/인테리어</a>
+            <a href="#" class="btn btn-outline-normal disabled">유아동/유아도서</a>
+            <a href="#" class="btn btn-outline-normal disabled">생활/가공식품</a>
+       </div>
+    </section>
+    <section class="section-products-list">
+        <h5 class="sed-item-title">중고 거래 제품</h5>
+        <ul class="list-products">
+            <li class="list-products-item">
+                <a href="#" class="products-item">
+                    <div class="ico-product">
+                        <i class="material-icons ic-cart">
+                            shopping_cart
+                        </i>
+                    </div>
+                    <div class="info-products">
+                        <h6 class="products-title">티볼리 1인신조차량 무사고차량 판매해요</h6>
+                        <h6 class="products-price">8,500,000원</h6>
+                        <ul class="products-sub-info d-flex">
+                            <li class="products-category">
+                                차량
+                            </li>
+                            <li class="registration-time">
+                                <time datetime='2019-08-20T08:30:00Z'>2개월전</time>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="list-products-item">
+                <a href="#" class="products-item">
+                    <div class="ico-product">
+                        <i class="material-icons ic-cart">
+                            shopping_cart
+                        </i>
+                    </div>
+                    <div class="info-products">
+                        <h6 class="products-title">티볼리 1인신조차량 무사고차량 판매해요</h6>
+                        <h6 class="products-price">8,500,000원</h6>
+                        <ul class="products-sub-info d-flex">
+                            <li class="products-category">
+                                차량
+                            </li>
+                            <li class="registration-time">
+                                <time datetime='2019-08-20T08:30:00Z'>2개월전</time>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="list-products-item">
+                <a href="#" class="products-item">
+                    <div class="ico-product">
+                        <i class="material-icons ic-cart">
+                            shopping_cart
+                        </i>
+                    </div>
+                    <div class="info-products">
+                        <h6 class="products-title">티볼리 1인신조차량 무사고차량 판매해요</h6>
+                        <h6 class="products-price">8,500,000원</h6>
+                        <ul class="products-sub-info d-flex">
+                            <li class="products-category">
+                                차량
+                            </li>
+                            <li class="registration-time">
+                                <time datetime='2019-08-20T08:30:00Z'>2개월전</time>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="list-products-item">
+                <a href="#" class="products-item">
+                    <div class="ico-product">
+                        <i class="material-icons ic-cart">
+                            shopping_cart
+                        </i>
+                    </div>
+                    <div class="info-products">
+                        <h6 class="products-title">티볼리 1인신조차량 무사고차량 판매해요</h6>
+                        <h6 class="products-price">8,500,000원</h6>
+                        <ul class="products-sub-info d-flex">
+                            <li class="products-category">
+                                차량
+                            </li>
+                            <li class="registration-time">
+                                <time datetime='2019-08-20T08:30:00Z'>2개월전</time>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="list-products-item">
+                <a href="#" class="products-item">
+                    <div class="ico-product">
+                        <i class="material-icons ic-cart">
+                            shopping_cart
+                        </i>
+                    </div>
+                    <div class="info-products">
+                        <h6 class="products-title">티볼리 1인신조차량 무사고차량 판매해요</h6>
+                        <h6 class="products-price">8,500,000원</h6>
+                        <ul class="products-sub-info d-flex">
+                            <li class="products-category">
+                                차량
+                            </li>
+                            <li class="registration-time">
+                                <time datetime='2019-08-20T08:30:00Z'>2개월전</time>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="list-products-item">
+                <a href="#" class="products-item">
+                    <div class="ico-product">
+                        <i class="material-icons ic-cart">
+                            shopping_cart
+                        </i>
+                    </div>
+                    <div class="info-products">
+                        <h6 class="products-title">티볼리 1인신조차량 무사고차량 판매해요</h6>
+                        <h6 class="products-price">8,500,000원</h6>
+                        <ul class="products-sub-info d-flex">
+                            <li class="products-category">
+                                차량
+                            </li>
+                            <li class="registration-time">
+                                <time datetime='2019-08-20T08:30:00Z'>2개월전</time>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="list-products-item">
+                <a href="#" class="products-item">
+                    <div class="ico-product">
+                        <i class="material-icons ic-cart">
+                            shopping_cart
+                        </i>
+                    </div>
+                    <div class="info-products">
+                        <h6 class="products-title">티볼리 1인신조차량 무사고차량 판매해요</h6>
+                        <h6 class="products-price">8,500,000원</h6>
+                        <ul class="products-sub-info d-flex">
+                            <li class="products-category">
+                                차량
+                            </li>
+                            <li class="registration-time">
+                                <time datetime='2019-08-20T08:30:00Z'>2개월전</time>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="list-products-item">
+                <a href="#" class="products-item">
+                    <div class="ico-product">
+                        <i class="material-icons ic-cart">
+                            shopping_cart
+                        </i>
+                    </div>
+                    <div class="info-products">
+                        <h6 class="products-title">티볼리 1인신조차량 무사고차량 판매해요</h6>
+                        <h6 class="products-price">8,500,000원</h6>
+                        <ul class="products-sub-info d-flex">
+                            <li class="products-category">
+                                차량
+                            </li>
+                            <li class="registration-time">
+                                <time datetime='2019-08-20T08:30:00Z'>2개월전</time>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="list-products-item">
+                <a href="#" class="products-item">
+                    <div class="ico-product">
+                        <i class="material-icons ic-cart">
+                            shopping_cart
+                        </i>
+                    </div>
+                    <div class="info-products">
+                        <h6 class="products-title">티볼리 1인신조차량 무사고차량 판매해요</h6>
+                        <h6 class="products-price">8,500,000원</h6>
+                        <ul class="products-sub-info d-flex">
+                            <li class="products-category">
+                                차량
+                            </li>
+                            <li class="registration-time">
+                                <time datetime='2019-08-20T08:30:00Z'>2개월전</time>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+            <li class="list-products-item">
+                <a href="#" class="products-item">
+                    <div class="ico-product">
+                        <i class="material-icons ic-cart">
+                            shopping_cart
+                        </i>
+                    </div>
+                    <div class="info-products">
+                        <h6 class="products-title">티볼리 1인신조차량 무사고차량 판매해요</h6>
+                        <h6 class="products-price">8,500,000원</h6>
+                        <ul class="products-sub-info d-flex">
+                            <li class="products-category">
+                                차량
+                            </li>
+                            <li class="registration-time">
+                                <time datetime='2019-08-20T08:30:00Z'>2개월전</time>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+        </ul>
+    </section>
+</div>
+</body>
+
+</html>
+
+<script>
+    // With JQuery
+    $("#carYeara").slider({ min: 0, max: 10, value: 0, focus: true });
+    $("#carYearb").slider({ min: 0, max: 10, value: [0, 10], focus: true });
+
+    $("#carDistancea").slider({ min: 0, max: 10, value: 0, focus: true });
+    $("#carDistanceb").slider({ min: 0, max: 10, value: [0, 10], focus: true });
+</script>
